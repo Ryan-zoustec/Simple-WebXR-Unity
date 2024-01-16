@@ -358,11 +358,8 @@ PlayerSettings:
     - stereo
     - None
   - m_BuildTarget: WebGL
-    m_Enabled: 1
-    m_Devices:
-    - MockHMD
-    - stereo
-    - None
+    m_Enabled: 0
+    m_Devices: []
   - m_BuildTarget: Windows Store Apps
     m_Enabled: 0
     m_Devices:
@@ -634,7 +631,7 @@ PlayerSettings:
   webGLTemplate: PROJECT:SimpleWebXR_Demo_Unity2019AndBefore
   webGLAnalyzeBuildSize: 0
   webGLUseEmbeddedResources: 0
-  webGLCompressionFormat: 1
+  webGLCompressionFormat: 0
   webGLLinkerTarget: 1
   webGLThreadsSupport: 0
   webGLWasmStreaming: 0
